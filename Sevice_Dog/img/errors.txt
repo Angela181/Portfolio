@@ -1,0 +1,1 @@
+[12/8/2017, 10:51:50 AM] layer "www.kaijoken.or.jp/donation/bokinbako.html": Unsupported extension: html

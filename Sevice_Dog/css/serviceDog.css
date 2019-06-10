@@ -1,0 +1,649 @@
+@charset "UTF-8";
+/* line 1, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.wrapper {
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  line-height: 1.8 !important;
+  font-weight: normal; }
+
+/* line 8, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.inner {
+  width: 980px;
+  margin: 0 auto; }
+
+/* line 13, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center; }
+
+/* line 20, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+a:link,
+a:visited {
+  text-decoration: none; }
+
+/* header ---------------*/
+/* line 35, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+header {
+  width: 100%;
+  height: 770px;
+  background: url(../img/top.png) center bottom no-repeat;
+  position: relative;
+  overflow: hidden; }
+  /* line 42, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  header .inner {
+    width: 860px; }
+    /* line 44, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    header .inner h1 {
+      position: absolute;
+      left: 50%;
+      top: 34px;
+      margin-left: -480px;
+      float: left;
+      width: 250px; }
+      /* line 51, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      header .inner h1 img {
+        width: 100%; }
+    /* line 55, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    header .inner .header_btn {
+      width: 280px;
+      float: right;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px; }
+      /* line 66, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      header .inner .header_btn p a:link,
+      header .inner .header_btn p a:visited {
+        border: 1px #61bfac solid;
+        border-radius: 2px; }
+      /* line 72, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      header .inner .header_btn .header_myPage a:link,
+      header .inner .header_btn .header_myPage a:visited {
+        display: block;
+        padding: 13px 30px 10px;
+        color: #61bfac;
+        background-color: rgba(97, 191, 172, 0.2); }
+      /* line 79, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      header .inner .header_btn .header_kifu a:link,
+      header .inner .header_btn .header_kifu a:visited {
+        display: block;
+        color: #fff;
+        padding: 10px 30px;
+        background-color: #61bfac;
+        font-size: 18px;
+        font-weight: bold; }
+    /* line 90, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    header .inner .answer img {
+      margin-top: 545px;
+      margin-left: 600px; }
+
+/* line 102, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.graph {
+  width: 100%;
+  padding: 72px 0;
+  background: url(../img/doggy.png) center center no-repeat;
+  background-size: cover; }
+  /* line 109, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .graph h2 {
+    font-size: 52px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  /* line 116, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .graph .graph {
+    width: 860px;
+    height: 265px;
+    margin: 0 auto 30px;
+    border: 1px solid #FACF05;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 40px 0; }
+  /* line 125, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .graph p {
+    width: 815px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: 2px 2px 3px #767676;
+    text-align: justify; }
+
+/* line 135, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.money {
+  width: 100%;
+  background-color: #F6F6F6;
+  padding: 80px 0; }
+  /* line 140, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .money .money_ph {
+    width: 860px;
+    margin: 0 auto; }
+    /* line 144, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .money .money_ph img {
+      box-shadow: 0px 13px 31.15px 3.85px rgba(0, 0, 0, 0.23); }
+  /* line 148, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .money p {
+    width: 815px;
+    margin: 40px auto 0;
+    font-size: 18px; }
+
+/* line 161, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.saveThem {
+  padding: 80px 0 70px; }
+  /* line 164, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .saveThem .dog_nosupport,
+  .saveThem .warmHeart {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 173, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .saveThem .dog_nosupport h3,
+    .saveThem .warmHeart h3 {
+      width: 600px;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.5;
+      border-bottom: 1px #000 solid;
+      padding-bottom: 10px;
+      margin-bottom: 35px; }
+    /* line 182, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .saveThem .dog_nosupport p,
+    .saveThem .warmHeart p {
+      text-align: justify;
+      line-height: 2; }
+  /* line 190, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .saveThem .dog_nosupport section {
+    margin-left: 40px; }
+  /* line 193, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .saveThem .dog_nosupport_ph img {
+    height: 250px; }
+  /* line 197, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .saveThem .warmHeart {
+    margin-top: 60px; }
+    /* line 200, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .saveThem .warmHeart .warmHeart section {
+      margin-right: 40px; }
+    /* line 203, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .saveThem .warmHeart .warmHeart_ph img {
+      height: 250px; }
+    /* line 206, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .saveThem .warmHeart h3, .saveThem .warmHeart p {
+      width: 636px; }
+
+/* line 216, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.kown {
+  width: 100%;
+  background-color: #FACF05;
+  padding: 80px 0 70px; }
+  /* line 221, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .kown .kownFlex {
+    margin-top: 60px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 230, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .kown .kownFlex section {
+      width: 310px;
+      background: url(../img/triangle.png) top left no-repeat #FEFEEB; }
+      /* line 234, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kown .kownFlex section .kown_icon {
+        text-align: center;
+        margin: 50px auto 15px; }
+      /* line 238, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kown .kownFlex section h3 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px; }
+      /* line 244, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kown .kownFlex section p {
+        width: 230px;
+        margin: 0 auto 45px;
+        text-align: justify; }
+
+/* line 258, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.mission {
+  padding: 80px 0 70px; }
+  /* line 261, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .mission .sub_title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px; }
+  /* line 267, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .mission .missionFlex {
+    margin-top: 50px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 276, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .mission .missionFlex .missionText {
+      width: 430px; }
+      /* line 279, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .mission .missionFlex .missionText h3 {
+        font-size: 22px;
+        font-weight: bold; }
+      /* line 283, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .mission .missionFlex .missionText .instructorLicense {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.9; }
+      /* line 288, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .mission .missionFlex .missionText .mission_message {
+        margin-top: 25px; }
+
+/* line 304, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.wait {
+  padding: 80px 0 70px;
+  background-color: #F6F6F6; }
+  /* line 308, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .wait .waitPorsen {
+    margin: 30px 0 0;
+    overflow: hidden;
+    background: url(/lp_image/images/serviceDog/tenn.png) 790px 465px no-repeat; }
+    /* line 312, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .wait .waitPorsen section {
+      width: 260px;
+      border-left: 1px #FACF05 solid;
+      float: left;
+      margin: 10px 45px 20px 35px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: space-between; }
+      /* line 324, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .wait .waitPorsen section .numPh {
+        transform: translateX(-35px);
+        padding-left: 0px; }
+      /* line 331, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .wait .waitPorsen section div h3 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.5; }
+      /* line 336, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .wait .waitPorsen section div p {
+        width: 260px; }
+      /* line 339, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .wait .waitPorsen section div .waitAddress {
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 15px; }
+      /* line 347, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .wait .waitPorsen section .numPh img {
+        width: 25px !important;
+        height: auto !important; }
+    /* line 353, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .wait .waitPorsen section:nth-child(3n) {
+      margin-right: 0; }
+  /* line 358, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .wait .waitPh {
+    margin-top: 50px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 367, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .wait .waitPh .wait_text {
+      width: 365px;
+      height: 328px;
+      font-size: 15px;
+      background-color: #FACF05;
+      padding: 55px;
+      line-height: 2.2;
+      text-align: justify; }
+
+/* line 382, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.nayami {
+  padding: 80px 0 70px;
+  color: #fff;
+  background: url(../img/wheelchair.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold; }
+  /* line 390, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .nayami h2 {
+    border: 0; }
+  /* line 393, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .nayami .nayami_text1 {
+    color: #eee;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2.5;
+    font-size: 23px; }
+  /* line 400, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .nayami .nayami_text2 {
+    width: 860px;
+    margin: 0 auto;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    text-align: left; }
+  /* line 408, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .nayami .nayami_text3 {
+    width: 560px;
+    margin: 50px auto 0;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px #fff solid;
+    padding: 40px; }
+
+/* line 423, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.kifu {
+  width: 100%;
+  padding: 80px 0 750px;
+  background-color: #F6F0EA; }
+  /* line 428, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .kifu .inner {
+    width: 860px; }
+    /* line 432, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .kifu .inner .kifu_f {
+      overflow: hidden; }
+      /* line 435, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kifu .inner .kifu_f .kifu_h3 {
+        width: 395px;
+        float: left;
+        margin-top: 50px; }
+        /* line 440, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .kifu .inner .kifu_f .kifu_h3 h3 {
+          font-size: 23px;
+          font-weight: bold;
+          text-align: center;
+          margin-bottom: 20px; }
+        /* line 446, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .kifu .inner .kifu_f .kifu_h3 .kifu_ph {
+          text-align: center;
+          margin-bottom: 15px; }
+        /* line 451, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .kifu .inner .kifu_f .kifu_h3 .kifu_h4 h4 {
+          font-size: 17px;
+          font-weight: bold;
+          background: url(../img/kigo.png) center left no-repeat;
+          padding-left: 20px;
+          margin-top: 15px;
+          margin-bottom: 5px; }
+        /* line 459, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .kifu .inner .kifu_f .kifu_h3 .kifu_h4 .kifu_tel {
+          font-size: 16px;
+          font-weight: bold;
+          background: url(../img/tel.png) center left no-repeat;
+          padding-left: 29px;
+          margin-top: 10px; }
+      /* line 468, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kifu .inner .kifu_f .kifu_h3:nth-child(2n) {
+        margin-left: 70px; }
+      /* line 471, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kifu .inner .kifu_f .kifu_h3_box {
+        height: 555px; }
+    /* line 476, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .kifu .inner .kifu_smartphone h3 {
+      font-size: 31px;
+      margin-top: 70px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-align: center; }
+    /* line 483, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .kifu .inner .kifu_smartphone .kifu_smartphone_yellow_area {
+      position: relative; }
+      /* line 486, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kifu .inner .kifu_smartphone .kifu_smartphone_yellow_area .kifu_yellow_waku {
+        position: absolute; }
+        /* line 489, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .kifu .inner .kifu_smartphone .kifu_smartphone_yellow_area .kifu_yellow_waku img {
+          box-shadow: 0px 13px 31.15px 3.85px rgba(0, 0, 0, 0.23); }
+      /* line 493, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .kifu .inner .kifu_smartphone .kifu_smartphone_yellow_area .kifu_smartphone_text {
+        width: 860px;
+        position: absolute;
+        z-index: 3; }
+        /* line 497, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .kifu .inner .kifu_smartphone .kifu_smartphone_yellow_area .kifu_smartphone_text p {
+          width: 620px;
+          margin: 370px auto 0;
+          line-height: 2.2;
+          font-size: 16px;
+          font-weight: bold; }
+
+/* line 512, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.taxe {
+  width: 100%;
+  padding: 80px 0 70px;
+  background: url(../img/pig.png) center center no-repeat;
+  background-size: cover; }
+  /* line 518, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .taxe .inner {
+    width: 860px; }
+    /* line 521, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .taxe .inner .taxe_f {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: space-between; }
+      /* line 531, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .taxe .inner .taxe_f p {
+        width: 340px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 50px;
+        font-size: 16px;
+        line-height: 2.2; }
+    /* line 541, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .taxe .inner p {
+      text-shadow: 1px 1px 5px #ffffff; }
+
+/* line 552, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.howToUse {
+  width: 100%;
+  padding: 80px 0 70px;
+  background-color: #008686;
+  color: #fff; }
+  /* line 558, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .howToUse .inner {
+    width: 860px; }
+    /* line 561, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .howToUse .inner h2 {
+      line-height: 1.6; }
+    /* line 564, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .howToUse .inner p {
+      margin-top: 30px;
+      margin-bottom: 25px; }
+    /* line 568, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .howToUse .inner .howToUse_ph {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: space-between; }
+
+/* line 586, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.plan {
+  padding: 80px 0 70px; }
+  /* line 589, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .plan .plan_f {
+    margin-top: 50px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    /* line 598, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .plan .plan_f section {
+      width: 465px; }
+      /* line 601, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .plan .plan_f section h3 {
+        background: url(../img/hearts_three.png) 200px 20px no-repeat #FB234C;
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        padding: 20px 0 10px 30px; }
+      /* line 608, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .plan .plan_f section .plan_subTitle {
+        background-color: #FB234C;
+        color: #fff;
+        padding: 10px 0 10px 30px;
+        margin-top: 1px; }
+      /* line 615, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .plan .plan_f section .plan_text {
+        border: 5px #FB234C solid;
+        padding: 30px; }
+      /* line 619, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .plan .plan_f section .plan_susume {
+        height: 50px;
+        background: url(../img/pink_yaji.png) center 5px no-repeat;
+        margin-top: 10px;
+        padding-top: 45px;
+        color: #FB234C;
+        font-weight: bold;
+        text-align: center; }
+  /* line 631, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .plan .please_help {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #facf05; }
+
+/* line 649, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.form_ttl {
+  background: linear-gradient(to bottom, #facf05 0%, #facf05 50%, #facf05 54%, #facf05 100%); }
+
+/* line 653, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.efoErrorItem {
+  background-color: #f6f5f0 !important; }
+
+/* line 657, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+#lpForm th {
+  background: #e8e7e7; }
+
+/* line 671, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+.top_mission,
+.dogcando_sp,
+.wait_taxe,
+.plan_btn,
+.use_sp {
+  display: none; }
+
+@media (max-width: 420px) {
+  /* line 680, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .answer,
+  .graph,
+  .money,
+  .saveThem,
+  .kown,
+  .mission,
+  .thanks,
+  .wait,
+  .nayami,
+  .kifu,
+  .taxe,
+  .howToUse,
+  .plan {
+    display: none; }
+  /* line 696, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .top_mission,
+  .dogcando_sp,
+  .wait_taxe,
+  .plan_btn,
+  .use_sp {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%; }
+    /* line 706, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .top_mission img,
+    .dogcando_sp img,
+    .wait_taxe img,
+    .plan_btn img,
+    .use_sp img {
+      max-width: 100%;
+      height: auto; }
+  /* line 714, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  header {
+    width: 100%;
+    height: 150px !important;
+    background: none; }
+    /* line 719, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    header .inner {
+      width: 100% !important; }
+      /* line 722, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      header .inner h1 {
+        width: 80%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: 0;
+        float: none; }
+        /* line 730, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        header .inner h1 img {
+          max-width: 100%; }
+      /* line 734, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      header .inner .header_btn {
+        width: 230px;
+        font-size: 12px;
+        transform: translateY(50px);
+        float: none;
+        margin: 0 auto;
+        margin-top: 35px; }
+        /* line 743, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        header .inner .header_btn .header_myPage a:link,
+        header .inner .header_btn .header_myPage a:visited {
+          padding: 10px 20px 7px; }
+        /* line 747, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        header .inner .header_btn .header_kifu a:link,
+        header .inner .header_btn .header_kifu a:visited {
+          padding: 7px 20px;
+          font-size: 14px; }
+  /* line 762, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .serviceDogCan {
+    margin-bottom: 70px; }
+    /* line 765, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .serviceDogCan .inner {
+      width: 100%; }
+      /* line 768, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .serviceDogCan .inner h2 {
+        font-size: 26px;
+        padding: 0 20px; }
+      /* line 772, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .serviceDogCan .inner p {
+        padding: 0 20px; }
+      /* line 776, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+      .serviceDogCan .inner .serviceDogCan_Flex {
+        margin: 0 auto; }
+        /* line 779, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+        .serviceDogCan .inner .serviceDogCan_Flex section {
+          float: none;
+          margin-right: 0;
+          font-size: 16px; }
+          /* line 784, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+          .serviceDogCan .inner .serviceDogCan_Flex section h3 {
+            margin-top: 25px;
+            margin-bottom: 10px; }
+  /* line 793, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+  .videoWhole {
+    width: 100%; }
+    /* line 796, /Users/angela/Desktop/angelaworks备份用/介助犬20171127~1218/介助犬coding 1214/css/serviceDog.scss */
+    .videoWhole .vid {
+      width: 100%;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=serviceDog.css.map */
